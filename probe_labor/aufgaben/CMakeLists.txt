@@ -1,0 +1,7 @@
+add_subdirectory(aufgabe_0)
+add_subdirectory(aufgabe_1)
+add_subdirectory(aufgabe_2)
+add_subdirectory(aufgabe_3)
+add_subdirectory(aufgabe_4)
+add_subdirectory(aufgabe_5)
+add_subdirectory(aufgabe_6)
