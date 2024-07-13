@@ -5,13 +5,8 @@
 #include "aufgabe_5.h"
 
 Node* Node::min_node() {
-  if (is_empty()) {
-    return nullptr;
-  }
-  if (left->is_empty()) {
-    return this;
-  }
-  return left->min_node();
+  // TODO
+  return nullptr;
 }
 
 TEST_CASE("leerer_baum") {

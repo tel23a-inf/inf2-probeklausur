@@ -5,20 +5,8 @@
 #include "aufgabe_6.h"
 
 std::string Node::path(int key_) {
-  if (is_empty()) {
-    return "X";
-  }
-
-  if (key_ == key) {
-    return "";
-  }
-
-  if (key_ < key) {
-    auto left_result = left->path(key_);
-    return left_result == "X" ? "X" : "L" + left_result;
-  }
-  auto right_result = right->path(key_);
-  return right_result == "X" ? "X" : "R" + right_result;
+  // TODO
+  return "X";
 }
 
 TEST_CASE("leerer_baum") {

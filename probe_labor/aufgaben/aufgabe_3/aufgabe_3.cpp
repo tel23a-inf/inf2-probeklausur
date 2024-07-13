@@ -5,14 +5,8 @@
 #include "aufgabe_3.h"
 
 std::vector<int> Element::values() {
-  if (is_empty()) {
-    return {};
-  }
-  std::vector<int> result = {value};
-  for (auto v : next->values()) {
-    result.push_back(v);
-  }
-  return result;
+  // TODO
+  return {};
 }
 
 TEST_CASE("leere_liste") {
